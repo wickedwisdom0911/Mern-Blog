@@ -8,7 +8,7 @@ const router=express.Router();
 
 
 router.get("/test", test)
-
+router.put('/update/:userId', verifyToken,updateUser)
 
 
 export default router;
