@@ -2,7 +2,7 @@ import express from 'express';
 import { verifyToken } from '../utils/verifyUser.js';
 import {
   createComment,
-  getPostComments,likeComment, deleteComment
+  getPostComments,likeComment, deleteComment, editComment
 } from '../controllers/comment.controller.js';
 
 const router = express.Router();
